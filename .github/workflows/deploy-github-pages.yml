@@ -31,8 +31,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Run Test
+        run: npm ci && npm run test
       - name: Build artifact
-        run: npm ci && npm run build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
