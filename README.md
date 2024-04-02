@@ -4,3 +4,5 @@
 - useState
 - useEffect
 - useContext
+
+- GitHub action for deploying to [GitHub Page](https://janat-t.github.io/learn-react-hook/)
